@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1FB358F-8035-4295-B22D-0A9A198C2B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyThucTap.Web", "src\QuanLyThucTap.Web\QuanLyThucTap.Web.csproj", "{664255EE-C99C-4E13-B47E-F3857C1D519E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyThucTap.Api", "src\QuanLyThucTap.Api\QuanLyThucTap.Api.csproj", "{F3B3FFEF-7688-4444-BC48-CAE2BDE199A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyThucTap.Shared", "src\QuanLyThucTap.Shared\QuanLyThucTap.Shared.csproj", "{C756A044-4F8D-48AA-9EB8-FEB77B2A0159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{10463CA2-FFCA-4596-B4B2-DC7045B929E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyThucTap.Tests", "tests\QuanLyThucTap.Tests\QuanLyThucTap.Tests.csproj", "{9082A10F-26A0-4CBB-B49A-F0E3790C91EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B3FFEF-7688-4444-BC48-CAE2BDE199A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B3FFEF-7688-4444-BC48-CAE2BDE199A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B3FFEF-7688-4444-BC48-CAE2BDE199A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B3FFEF-7688-4444-BC48-CAE2BDE199A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C756A044-4F8D-48AA-9EB8-FEB77B2A0159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C756A044-4F8D-48AA-9EB8-FEB77B2A0159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C756A044-4F8D-48AA-9EB8-FEB77B2A0159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C756A044-4F8D-48AA-9EB8-FEB77B2A0159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664255EE-C99C-4E13-B47E-F3857C1D519E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664255EE-C99C-4E13-B47E-F3857C1D519E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664255EE-C99C-4E13-B47E-F3857C1D519E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664255EE-C99C-4E13-B47E-F3857C1D519E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9082A10F-26A0-4CBB-B49A-F0E3790C91EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9082A10F-26A0-4CBB-B49A-F0E3790C91EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9082A10F-26A0-4CBB-B49A-F0E3790C91EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9082A10F-26A0-4CBB-B49A-F0E3790C91EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3B3FFEF-7688-4444-BC48-CAE2BDE199A9} = {A1FB358F-8035-4295-B22D-0A9A198C2B0B}
+		{C756A044-4F8D-48AA-9EB8-FEB77B2A0159} = {A1FB358F-8035-4295-B22D-0A9A198C2B0B}
+		{664255EE-C99C-4E13-B47E-F3857C1D519E} = {A1FB358F-8035-4295-B22D-0A9A198C2B0B}
+		{9082A10F-26A0-4CBB-B49A-F0E3790C91EC} = {10463CA2-FFCA-4596-B4B2-DC7045B929E6}
+	EndGlobalSection
+EndGlobal
